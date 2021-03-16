@@ -1,0 +1,68 @@
+.grid {
+
+   display: grid;
+   font-weight: bold;
+   text-align: center;
+
+}
+
+
+
+.grid-element {
+    background-color:white;
+    border-style:solid;
+    border-radius: auto;
+    
+
+}
+
+.nav {
+    grid-row: 1 / 7;
+    grid-column: 1 / 2;
+    
+}
+
+.header {
+    grid-row: 1 / 2;
+    grid-column: 2 / 5;
+   
+}
+
+.comm {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.serv {
+    grid-row: 3 /  5;
+    grid-column: 2 / 3;
+}
+
+.disc {
+    grid-row: 5 / 7;
+    grid-column: 2 / 3;
+}
+
+.job {
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+}
+
+.gig {
+    grid-row: 4 / 7;
+    grid-column: 3 / 4;
+}
+
+.hous { 
+    grid-row: 2 / 6;
+    grid-column: 4 / 5;
+}
+
+.sale {
+    grid-row: 6 / 7;
+    grid-column: 4 / 5;
+}
+.location-list {
+    grid-row: 1 / 7;
+    grid-column: 5 / 6;
+}
