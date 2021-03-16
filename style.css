@@ -1,16 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+}
 .grid {
 
    display: grid;
    font-weight: bold;
    text-align: center;
-
+   justify-content: center;
+   width: 860px;
+   height: 100%;
+   grid-template-columns: 175px auto 114px;
+   
 }
 
 
 
 .grid-element {
     background-color:white;
-    border-style:solid;
+    border-style: solid;
     border-radius: auto;
     
 
@@ -19,7 +30,7 @@
 .nav {
     grid-row: 1 / 7;
     grid-column: 1 / 2;
-    
+    size: 1rem;
 }
 
 .header {
